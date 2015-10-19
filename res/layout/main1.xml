@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:layout_gravity="right">
+    <ImageButton 
+        android:id="@+id/share"
+        android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:background="#000000"
+          android:src="@android:drawable/ic_menu_share"            />
+            <ImageButton
+              android:id="@+id/tweet"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:paddingRight="20dp"
+            android:src="@drawable/tweeticon"
+             />
+
+        <ImageButton
+            android:id="@+id/facebook"
+          android:layout_width="30dp"
+            android:layout_height="30dp"
+            
+            
+            android:src="@drawable/facebookicon" />
+
+       </LinearLayout>
+
+    <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:paddingTop="1dp"
+            android:text="Pictionary"
+            android:textColor="#ff4500"
+            android:textSize="35dp" />
+<RelativeLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:fitsSystemWindows="true"
+       android:paddingTop="5dp" >
+
+       <ImageButton
+           android:id="@+id/imageButton1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentTop="true"
+           android:background="@drawable/black"
+           android:paddingBottom="10dp"
+           android:src="@drawable/az" />
+
+       <ImageButton
+           android:id="@+id/imageButton2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_toRightOf="@id/imageButton1"
+           android:background="@drawable/black"
+           android:paddingBottom="10dp"
+           android:paddingLeft="20dp"
+           android:src="@drawable/random" />
+
+       <TextView
+           android:id="@+id/textView1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/imageButton1"
+           android:text="A-Z Words" />
+
+       <TextView
+           android:id="@+id/textView2"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/imageButton2"
+           android:layout_toRightOf="@id/textView1"
+           android:paddingLeft="25dp"
+           android:text="Random" />
+
+       <ImageButton
+           android:id="@+id/imageButton3"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/textView1"
+           android:background="@drawable/black"
+           android:paddingTop="15dp"
+           android:src="@drawable/find" />
+
+       <ImageButton
+           android:id="@+id/imageButton4"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/textView2"
+           android:layout_toRightOf="@id/imageButton3"
+           android:background="@drawable/black"
+           android:paddingLeft="20dp"
+           android:paddingTop="15dp"
+           android:src="@drawable/testicon" />
+
+       <TextView
+           android:id="@+id/textView3"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/imageButton3"
+           android:paddingTop="10dp"
+           android:text="Search" />
+
+       <TextView
+           android:id="@+id/textView4"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/imageButton4"
+           android:layout_toRightOf="@id/textView3"
+           android:paddingLeft="45dp"
+           android:paddingTop="10dp"
+           android:text="Test" />
+       
+       <ImageButton 
+           android:id="@+id/rootbutton"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            
+           android:layout_below="@id/textView3"
+           android:src="@drawable/root"
+            android:background="@drawable/black"
+           />
+       <TextView
+           android:id="@+id/roottext"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@id/rootbutton"
+           
+        
+           android:paddingTop="10dp"
+           android:text="Root" />
+       
+       <ImageButton 
+           android:id="@+id/imageButton5"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:paddingTop="10dp"
+           android:layout_below="@id/textView4"
+           android:paddingLeft="20dp"
+           android:layout_toRightOf="@id/imageButton3"
+           android:src="@drawable/exit"
+           android:background="@drawable/black"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignRight="@+id/textView4"
+           android:layout_below="@+id/imageButton5"
+           android:paddingLeft="45dp"
+           android:paddingTop="5dp"
+           android:text="Exit" />
+
+   </RelativeLayout>
+
+   <TextView
+       android:paddingTop="6dp"
+       android:id="@+id/textView5"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Learning is fun!"
+       android:textAppearance="?android:attr/textAppearanceLarge" 
+       android:layout_gravity="center"/>
+
+</LinearLayout>

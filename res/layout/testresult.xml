@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:id="@+id/main"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent">
+	<!-- Header -->
+	<TextView android:id="@+id/result"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+		     android:layout_gravity="center"
+		     android:gravity="center"
+		     android:textSize="18dp"
+		    android:textStyle="italic"
+		     android:textColor="#FF9900"
+		    android:text="You got X out of Y and Z are unattempted!"
+		/>
+	<LinearLayout android:id="@+id/header"
+		android:background="#ff347c12"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		>
+		<TextView android:id="@+id/item1"
+			android:layout_height="fill_parent"
+			android:layout_width="wrap_content"
+			  android:width="150dip"
+			android:height="30dip"
+		android:text="Question"
+		/>
+		<TextView android:id="@+id/item2"
+			android:layout_height="fill_parent"
+			android:layout_width="wrap_content"
+		     android:width="150dip"
+			android:height="30dip"
+		    android:text="Your Answer"
+		/>
+	
+		
+	</LinearLayout>
+
+	<!-- List Divider -->
+	<View android:layout_width="fill_parent"
+		android:layout_height="1dip"
+		android:background="?android:attr/listDivider" />
+
+	<!-- ListView (grid_items) -->
+	<LinearLayout android:id="@+id/layout"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:orientation="vertical">
+		
+		<ListView android:id="@+id/listview"
+			android:layout_height="fill_parent"
+			android:layout_width="fill_parent">
+		</ListView>
+	</LinearLayout>
+			
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="4dp"
+    android:background="@drawable/black"
+    android:gravity="center"
+    android:weightSum="100"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/Wword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="widget1txt"
+        android:textSize="20dp" 
+        android:textColor="#FF9900"
+       android:padding="2dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_weight="20"/>
+
+    <ImageView
+        android:id="@+id/Wimage"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_weight="40"
+        android:src="@drawable/black" 
+        android:layout_gravity="center"
+        android:padding="5dp"
+        />
+
+<ImageView
+        android:id="@+id/line"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:src="@drawable/line" 
+        android:layout_weight="10"
+        android:layout_gravity="center"
+        android:padding="1dp"
+        />
+
+<TextView
+        android:id="@+id/Wmeaning"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="widget2text"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:layout_weight="30"
+         android:padding="2dp"
+        
+        android:textColor="#06DCFB"/>
+
+    
+</LinearLayout>

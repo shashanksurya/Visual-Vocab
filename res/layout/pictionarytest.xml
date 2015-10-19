@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100" >
+ 
+     
+  
+
+    
+
+     <ScrollView android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="80" >
+     
+        <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+        <TextView
+        android:paddingTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="38"
+        android:gravity="center"
+        android:text="Question"
+        android:textSize="23dp"
+         android:textColor="#FF9900"
+         android:textStyle="bold"
+         android:id="@+id/number" />
+              <ImageView
+        android:id="@+id/hintimage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:paddingTop="1dp"
+        android:paddingBottom="1dp"
+        android:layout_gravity="center"
+        />
+              <ImageView
+        android:id="@+id/hintimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:paddingTop="1dp"
+        android:paddingBottom="1dp"
+        android:layout_gravity="center"
+        android:src="@drawable/hint" />
+       
+         <TextView
+	        android:text="HINT"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content"
+	        android:layout_gravity="center"
+	    />         
+         <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:paddingTop="5dp"
+        android:paddingBottom="10dp"
+        android:src="@drawable/line" />
+         <TextView
+        android:paddingTop="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="38"
+        android:gravity="center"
+        android:text="Meaning : Its a bird which carry information to  various places"
+        android:textSize="20dp"
+         android:textColor="#00bfff"
+         android:id="@+id/question" />
+            
+
+<RadioGroup
+        android:id="@+id/radiopt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+         android:layout_gravity="center"
+          android:orientation="vertical"
+          
+          >
+        <RadioButton
+            android:id="@+id/opt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+                         />
+ 
+        <RadioButton
+             android:id="@+id/opt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             
+             />
+        <RadioButton
+             android:id="@+id/opt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           
+             />
+        <RadioButton
+             android:id="@+id/opt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           
+             />
+        </RadioGroup>
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+          android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:src="@drawable/line" />
+   
+                <Button
+            android:id="@+id/anext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           android:layout_gravity="center"
+          android:text="Next"
+            android:layout_marginRight="15dp"
+             />
+        
+
+    </LinearLayout>
+    </ScrollView> 
+
+    
+</LinearLayout>

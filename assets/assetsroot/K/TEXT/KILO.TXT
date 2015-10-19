@@ -1,0 +1,3 @@
+Meaning : thousand
+origin : Greek
+Examples and definitions :kilobyte - 1,000 bytes; kilometer - 1,000 meter; kilograms - 1,000 grams.

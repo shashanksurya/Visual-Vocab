@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, PictionaryActivity!</string>
+    <string name="app_name">Pictionary Premium</string>
+     <string name="drawer_close">close</string>
+     <string name="drawer_open">open</string>
+    
+
+</resources>
